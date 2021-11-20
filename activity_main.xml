@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrnd1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="276dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="organiser un match n'a jamais été plus facile"
+        android:textSize="19dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/text"
+        android:layout_marginVertical="80dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15dp"
+        android:hint="Hamidskefkef@gmail.com"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginVertical="300dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="15dp"
+        android:hint="Passsword"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="380dp"
+        android:text="forget password ?"
+        android:padding="15dp"
+        android:gravity="right"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="301dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="440dp"
+        android:backgroundTint="#293253"
+        android:text="Login" />
+
+
+
+</RelativeLayout>
